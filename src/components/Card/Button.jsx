@@ -41,7 +41,7 @@ export const Button = ({ param, props, cardEditing }) => {
                 });
               }}
             >
-              save
+              done
             </button>
           </div>
         </>)

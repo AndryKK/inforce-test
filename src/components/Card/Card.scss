@@ -1,0 +1,62 @@
+.card {
+  min-width: fit-content;
+  min-height: 500px;
+}
+
+.card-image img {
+  object-fit: contain;
+}
+
+.card-content {
+  margin: 0 auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+.wrap-picture {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.position-relative {
+  display: block;
+  position: relative;
+}
+
+.custom-input {
+  max-width: 100px;
+}
+
+.custom-button {
+  position: absolute;
+  top: 50%;
+}
+
+.Block-editing {
+  position: absolute;
+  max-height: 50px;
+  top: 50%;
+}
+
+.margin-10 {
+  margin-left: 10px;
+}

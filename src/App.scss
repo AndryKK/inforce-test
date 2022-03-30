@@ -1,0 +1,45 @@
+.page {
+  display: grid;
+  grid-template: auto / 1fr 400px;
+  column-gap: 20px;
+  min-height: 100vh;
+}
+
+.page-x {
+  display: grid;
+  grid-template: auto / 1fr;
+  column-gap: 20px;
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.sidebar {
+  padding: 20px;
+  border-left: 1px solid lightgray;
+}
+
+.error {
+  border: 3px solid red;
+  &::placeholder{
+    color: red;
+  }
+}
+
+
+.button-custom {
+  z-index: 1;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+

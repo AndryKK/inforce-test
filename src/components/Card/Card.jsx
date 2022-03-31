@@ -28,8 +28,8 @@ export const Card = (props) => {
               />
             </div>
           </div>
-          <div className="media-left position-relative">
-            <p className="title is-8">{props.name}</p>
+          <div className="position-relative">
+            <p className="title">{props.name}</p>
             <Button param={'name'} props={props} cardEditing={cardEditing}/>
           </div>
           <div className="position-relative">

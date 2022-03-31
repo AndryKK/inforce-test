@@ -26,6 +26,8 @@
 }
 
 .content {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -59,4 +61,15 @@
 
 .margin-10 {
   margin-left: 10px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 450px));
+  gap: 20px;
+}
+
+.title-block {
+  display: flex;
+  justify-content: space-between;
 }

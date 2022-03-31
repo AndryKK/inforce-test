@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/inforce-test/static/css/main.e91a4d2f.css",
-    "main.js": "/inforce-test/static/js/main.097bf6f0.js",
+    "main.css": "/inforce-test/static/css/main.d1cac853.css",
+    "main.js": "/inforce-test/static/js/main.78c0634b.js",
     "index.html": "/inforce-test/index.html",
-    "main.e91a4d2f.css.map": "/inforce-test/static/css/main.e91a4d2f.css.map",
-    "main.097bf6f0.js.map": "/inforce-test/static/js/main.097bf6f0.js.map"
+    "main.d1cac853.css.map": "/inforce-test/static/css/main.d1cac853.css.map",
+    "main.78c0634b.js.map": "/inforce-test/static/js/main.78c0634b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e91a4d2f.css",
-    "static/js/main.097bf6f0.js"
+    "static/css/main.d1cac853.css",
+    "static/js/main.78c0634b.js"
   ]
 }
